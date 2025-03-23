@@ -1,77 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Ponomar&family=Ysabeau+Infant:ital,wght@0,1..1000;1,1..1000&display=swap');
 
-header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100px;
-    background: linear-gradient(90deg, #A33C90 0%, rgba(119, 227, 191, 0) 30%, rgba(119, 227, 191, 0) 70%, #533CA3 100%), #77E3BF;
-    width: 100%;
-}
-
 .btn1 {
+    justify-content: center;
+    width: 386px;
+    height: 100px;
     background: #FFE043;
     border: 10px solid #FFE043;
     box-shadow: 0px 6px 8px rgba(45, 36, 97, 0.25);
     border-radius: 50px;
     font-family: 'Ysabeau Infant';
-    font-size: 30px;
+    font-size: 39px;
     color: #74689C;
     font-weight: bold;
     cursor: pointer;
+    transition: transform 0.2s ease-out;
 }
 
 .btn2 {
-
+    justify-content: center;
+    width: 386px;
+    height: 100px;
     background: #FFFFFF;
     border: 10px solid #FFFFFF;
     border-radius: 50px;
     font-family: 'Ysabeau Infant';
     font-weight: 700;
-    font-size: 25px;
+    font-size: 39px;
     color: #74689C;
     cursor: pointer;
+    transition: transform 0.2s ease-out;
 }
 
 .btn3 {
+    width: 386px;
+    height: 100px;
     background: #FFFFFF;
     border: 10px solid #FFFFFF;
     border-radius: 50px;
     font-family: 'Ysabeau Infant';
     font-weight: 700;
-    font-size: 25px;
+    font-size: 35px;
     color: #74689C;
     cursor: pointer;
+    transition: transform 0.2s ease-out;
 }
 
-.container{
-    display: flex;
-    justify-content: space-evenly;
-    max-width: 1200px;
-    margin: 50px auto;
-}
-
-.buttons-container{
-    display: flex;
-    flex-direction: column;
-}
-
-.title {  
+.btn {
+    position: absolute;
+    left: 100px;
+    top: 109px;
     font-family: 'Ysabeau Infant';
     font-style: normal;
     font-weight: 750;
-    font-size: 50px;
+    font-size: 84px;
     color: #74689C;
     text-shadow: 3px 4px 0px #FFC233;
-    margin:0px;
-    margin-bottom:40px;
 }
 
 .generation {
-    font-size: 30px;
-    height: 200px;
+    position: absolute;
+    width: 853px;
+    height: 312px;
+    left: 74px;
+    top: 369px;
     border-radius: 50px;
     font-family: 'Ysabeau Infant';
+    font-size: 30px;
     text-align: center;
     letter-spacing: 0.1px;
     color: rgba(24, 22, 57, 0.4);
@@ -79,25 +73,42 @@ header {
 }
 
 .button {
-
+    justify-content: center;
+    position: absolute;
+    width: 446px;
+    height: 90px;
+    left: 293px;
+    top: 731px;
     background: #FFE043;
     border: 10px solid #FFE043;
     box-shadow: 0px 6px 8px rgba(45, 36, 97, 0.25);
     border-radius: 50px;
     font-family: 'Ysabeau Infant';
     font-weight: 700;
-    font-size: 35px;
+    font-size: 55px;
     line-height: 50px;
     letter-spacing: 0.1px;
     color: #74689C;
     cursor: pointer;
     margin-top:30px;
+    transition: transform 0.2s ease-out;
 }
 
-
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(90deg, #A33C90 0%, rgba(119, 227, 191, 0) 30%, rgba(119, 227, 191, 0) 70%, #533CA3 100%), #77E3BF;
+    justify-content: center;
+    gap: 170px;
+}
 
 img {
-    width: 400px;
+    width: 800px;
+    height: 800px;
+    margin-left: 1000px;
     transition: transform 0.2s ease-out;
 }
 
@@ -106,6 +117,55 @@ body {
 }
 
 img:hover {
-    transform: translate(50px, -50px);
+    transform: translate(50px);
+}
+
+.image{
+    width: 800px;
+    height: 800px;
+}
+
+.title{
+position: absolute;
+left: 130px;
+top: 100px;
+font-family: 'Ysabeau Infant';
+font-weight: 700;
+font-size: 74px;
+letter-spacing: 0.1px;
+color: #74689C;
+text-shadow: 3px 4px 0px #FFC233;
+}
+
+.button:hover{
+    filter: brightness(90%);
+}
+
+.button:active{
+    transform: scale(0.9);
+}
+
+.btn1:hover{
+    filter: brightness(90%);
+}
+
+.btn2:hover{
+    filter: brightness(90%);
+}
+
+.btn3:hover{
+    filter: brightness(90%);
+}
+
+.btn1:active{
+    transform: scale(0.9);
+}
+
+.btn2:active{
+    transform: scale(0.9);
+}
+
+.btn3:active{
+    transform: scale(0.9);
 }
 
