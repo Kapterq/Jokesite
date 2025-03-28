@@ -169,3 +169,124 @@ text-shadow: 3px 4px 0px #FFC233;
     transform: scale(0.9);
 }
 
+.text-footer{
+    text-align: center;
+}
+
+.number{
+    text-align: center;
+}
+
+.mail{
+    text-align: center;
+}
+
+.twitter{
+    width: auto;
+    height: auto;
+    font-family: 'Ysabeau Infant';
+    font-size: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.1px;
+    color: #74689C;
+    text-shadow: 3px 4px 0px #FFC233;
+    background: url(images/free-icon-twitter-5968958.png);
+    background-size: 100%;
+    text-indent: 43px;
+    max-width: 40px;
+    background-repeat: no-repeat;
+    transition: transform 0.1s ease-out;
+    text-decoration: none;
+}
+
+.youtube{
+    width: auto;
+    height: auto;
+    font-family: 'Ysabeau Infant';
+    font-size: 30px;
+    background: url(images/icons8-youtube-50.png);
+    background-size: 100%;
+    text-indent: 46px;
+    max-width: 50px;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.1px;
+    color: #74689C;
+    text-shadow: 3px 4px 0px #FFC233;
+    transition: transform 0.1s ease-out;
+    text-decoration: none;
+}
+
+.tikTok{
+    width: auto;
+    height: auto;
+    font-family: 'Ysabeau Infant';
+    font-size: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.1px;
+    color: #74689C;
+    text-shadow: 3px 4px 0px #FFC233;
+    background: url(images/free-icon-tik-tok-3046120.png);
+    background-size: 100%;
+    text-indent: 40px;
+    max-width: 40px;
+    background-repeat: no-repeat;
+    margin-right: 70px;
+    transition: transform 0.1s ease-out;
+    text-decoration: none;
+}
+
+.buttons-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 160px;
+    padding-bottom: 60px;
+}
+
+footer{
+    background: linear-gradient(90deg, #A33C90 0%, rgba(119, 227, 191, 0) 30%, rgba(119, 227, 191, 0) 70%, #533CA3 100%), #77E3BF;
+}
+
+.text-footer{
+    font-size: 74px;
+    letter-spacing: 0.1px;
+    color: #74689C;
+    text-shadow: 3px 4px 0px #FFC233;
+}
+
+.number{
+    font-size: 34px;
+    letter-spacing: 0.1px;
+    color: #74689C;
+    text-shadow: 3px 4px 0px #FFC233;
+    line-height: 10px;
+}
+
+.mail{
+    font-size: 34px;
+    letter-spacing: 0.1px;
+    color: #74689C;
+    text-shadow: 3px 4px 0px #FFC233;
+}
+
+.text-container{
+    padding-top: 6px
+}
+
+.tikTok:active{
+    transform: scale(0.9);
+}
+
+.youtube:active{
+    transform: scale(0.9);
+}
+
+.twitter:active{
+    transform: scale(0.9);
+}
