@@ -7,7 +7,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <header>
         <a href="" class="btn1">Генератор жартiв</a>
@@ -24,8 +23,8 @@
         <div class="container">
             <div class="buttons-container">
                 <p class="title">ГЕНЕРАТОР ЖАРТІВ</p>
-                <input class="generation" type="text" value="Натиснiть на кнопку Згенерувати" disabled>
-                <button class="button">Згенерувати</button>
+                <textarea id="jokeText" rows="6" placeholder="Натиснiть на кнопку Згенерувати" class="generation" disabled></textarea>
+                <button onclick="generateJoke()" class="button">Згенерувати</button>
                 <img src="/images/IMG_3994.PNG">
            </div>
         </div>
@@ -42,5 +41,6 @@
         <a href="https://www.tiktok.com/" class="tikTok">TikTok</a>
     </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
