@@ -95,24 +95,6 @@ header {
     outline: none;
     width:100%;
   }
-  
-  .search-btn {
-    font-family: 'Ysabeau Infant';
-    background-color: #ffdb3c;
-    color: #74689C;
-    border: none;
-    padding: 0.4em 1em;
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 2.5rem;
-    transition: background-color 0.3s ease;
-    border-radius: 300px;
-  }
-  
-  .search-btn:hover {
-    background-color: #74689C;
-    color: #FFFFFF;
-  }
 
 .images{
     position: relative;
