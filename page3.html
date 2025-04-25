@@ -15,32 +15,22 @@
     <header>
         <a href="index.html" class="btn1">Генератор жартiв</a>
         <a href="page2.html" class="btn2">Iсторiя гумору</a>
-        <a href="" class="btn3">Пошук по гумористах</a>
+        <a href="" class="btn3">Наш вибір гумористів</a>
     </header>
     <main>
-        <div class="search">
-            <form class="search-form" action="#" method="get">
-                <input type="text" name="q" class="search-input" placeholder="Пошук..." aria-label="Пошук"/>
-            </form>   
-        </div>
+       
         <p class="recs">Рекомендовані гумористи</p>
-        <div class="images">
-            <div class="image">
-              <img src="/images/pagethree1.PNG">
-              <p class="name">Юрій Ткач</p>
-              <p class="caption">актор «Кварталу 95», відомий своїм комічним образом і простим, народним гумором.</p>
-            </div>
-            <div class="image">
-              <img src="/images/pagethree2.PNG">
-              <p class="name">Робін Вільямс</p>
-              <p class="caption">легенда стендапу та кіно, імпровізація була його суперсилою.</p>
-            </div>
-            <div class="image">
-              <img src="/images/pagethree3.PNG">
-              <p class="name">Рікі Джервейс</p>
-              <p class="caption">британський комік, відомий своїм чорним гумором і сарказмом.</p>
-            </div>
-          </div>
+        <div id="gallery-container">
+            <div class="images" id="gallery">
+
+        </div>
+          
+        <div id="buttons">
+          <button onclick="showSet(1)">1</button>
+          <button onclick="showSet(2)">2</button>
+          <button onclick="showSet(3)">3</button>
+        </div>
+      </div>
 
     </main>
 
@@ -56,7 +46,6 @@
             <a href="https://www.tiktok.com/" class="tikTok">TikTok</a>
         </div>
         </footer>
+        <script src="script3.js"></script>
     </body>
-<script src="script3.js"></script>
     </html>
-</body>
