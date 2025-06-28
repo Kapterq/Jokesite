@@ -348,11 +348,15 @@ footer{
 }
 
 .loader {
-    border: 10px solid #f3f3f3;
-    border-top: 10px solid #9DA2D5;
+    display: block;
+    width: 50vmin;
+    height: 50vmin;
+    
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    overflow: hidden;
+    
+    background-color: #fff;
+    box-shadow: 0 0 200vmin #c5c3c1;
     animation: spin 1s linear infinite;
 }
 
@@ -360,3 +364,37 @@ footer{
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
+.loader:after {
+    content: '';
+    
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+    background: #000;
+    clip-path: shape(
+      /* first step */
+      from 50% 0%,
+      arc to 50% 100% of 1% cw,
+      arc to 50% 50% of 1% cw,
+      arc to 50% 0% of 1%,
+      
+      /* top circle */
+      smooth to 50% 33%,
+      arc to 50% 17% of 1% cw,
+      arc to 50% 33% of 1% cw,
+      
+      /* bottom circle */
+      smooth to 50% 83%,
+      arc to 50% 67% of 1%,
+      arc to 50% 83% of 1%
+    );
+  }
+
+  .auto-height {
+    textarea {
+      resize: none;
+      overflow: hidden;
+    }
+  }
